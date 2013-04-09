@@ -2,7 +2,7 @@
 
 		
 				include 'sql.php'; 
-				
+				//Je ne comprends pas exactement ce que font les commandes dans chaque fonction
 			   function connectoi() {
 						   global $connSQL;
 						   if(function_exists("mysqli_connect")) {
